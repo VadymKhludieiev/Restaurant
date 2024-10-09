@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.container {
+    margin: 0px 166px
+}
+.header {
+    background-image: url(../images/Hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.header__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.menu__item {
+    font-weight: 700;
+font-size: 14px;
+color: #fff;
+margin-right:25px;
+text-decoration: none;
+transition: color 0.3s linear;
+}
+
+.menu__item:hover {
+    color: #ff7400;
+}
+.cart {
+    position: relative;
+    border-right:1px solid #fff;
+  padding-right: 10px;
+  height: 50px;
+}
+.cart__img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+
+.num__holder {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.num a{
+    font-weight: 700;
+font-size: 18px;
+color: #fff;
+
+}
+.num__holder a :hover {
+    color: #ff7400;
+    transition: color 0.3s linear;
+}
+.num__text {
+    font-weight: 400;
+font-size: 14px;
+color: #fff;
+}
+.menu__btn {
+    font-weight: 700;
+font-size: 14px;
+color: #fff;
+    color: #fff;
+    background-color: #ff7400 ;
+    padding:  14px 18px;
+    transition: background-color 0.3s linear;
+}
+
+.menu__btn:hover {
+    background-color: red;
+   
+}
+.header__down {
+    position: relative;
+}
+.header__title {
+    position: absolute;
+    left: 0;
+    margin-top: 222px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+font-size: 50px;
+color: #d67e35;
+text-align: center;
+margin-bottom: 12px;
+}
+.header__suptitle {
+    font-weight: 400;
+font-size: 80px;
+color: #d67e35;
+text-align: center;
+}
+.header__subtitle-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+font-size: 18px;
+color: #fff;
+}
+
+.header__subtitle-text::after {
+    position: absolute;
+    content: '';
+    width: 61px;
+height: 2px;
+background-color: #c4c4c4;
+top: 147px;
+    left: 90px;
+
+}
+.header__subtitle-text::before {
+    position: absolute;
+    content: '';
+    width: 61px;
+height: 2px;
+background-color: #c4c4c4;
+top: 147px;
+    left: 350px;
+
+}
+.header__title-btn {
+    font-family: "Open Sans", sans-serif;
+    padding: 14px 28px;
+    font-weight: 700;
+font-size: 14px;
+color: #fff;
+    background-color: #ff7400;
+    transition: background-color 0.3s linear;
+}
+
+.header__title-btn:hover {
+    background-color: red;
+   
+}
